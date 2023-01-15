@@ -1,0 +1,103 @@
+
+html{
+
+	font-size: 22px;
+    line-height: 1.2;
+	background: #d1d0d0;
+}
+
+.description h1{
+	text-align: center;
+  color: white;
+}
+
+.menu{
+    position: relative;
+    float: right;
+    padding: 1em;
+    background: darkgray;
+	border-radius: 20px;
+	box-shadow: -1em .3em 1em gray;
+    margin-top: 3em;
+}
+.menu li{
+    margin: 1em;
+	text-decoration: none;
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    width: 30em;
+}
+.description{
+	width: 33em;
+}
+
+.description img{
+	width: 15em;
+}
+
+form fieldset{
+    width: 30em;
+	border-radius: 1em;
+	box-shadow: 0em 1.3em 1em gray;
+}
+
+.liste{
+  	display: grid;
+	grid-template-columns: 10em 10em 10em 10em;
+	padding: 0px;
+	justify-content: center;
+	text-align: center;	
+}
+.liste li{
+  	border: 1px solid black;
+	background-color: white;
+	
+	list-style-type : none;
+	text-decoration: none;
+	margin: 5px;
+	border-radius: 1em;
+    
+}
+.liste li a{
+	text-decoration: none;
+	padding: 1em;
+	display: block;
+}
+.liste li:hover{
+	font-size: 100%;
+	background-size: cover; 	
+	background-image: url("../upload/mjollnir.gif");								
+	box-shadow: .6em .2em 1em  blue;							
+	background-position: center; 
+	border-radius: .8em;
+	transition: .4s;
+}
+.liste li:hover a{color: whitesmoke;}
+
+small{
+	color: red;
+	font-size: small;
+}
+.description{
+	border: bisque;
+	background: #b5b3b3;
+	width: 16em;
+	position: absolute;
+	right: 23em;
+	border-radius: 3em;
+	padding-left: 21px;
+	/*! bottom: 1em; */
+	/*! top: -20em; */
+ box-shadow: -1em .3em 1em gray;}
+.description  div{
+	position: relative;
+	right: -3.4em;
+	bottom: 0.3em;
+	
+}
+.page div div button{
+	width: 13em;
+}
